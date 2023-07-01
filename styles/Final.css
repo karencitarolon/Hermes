@@ -1,0 +1,413 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: Nexa;
+    src: url(Nexa-ExtraLight.ttf);
+}
+
+@font-face{
+    font-family: Nexa1;
+    src: url(Nexa-Heavy.ttf);
+}
+
+.nav-link {
+    font-family: Nexa;
+    color: rgb(210, 158, 0);
+    font-weight: bold;
+    justify-content: end;
+    margin-top: -3px;
+    padding-right: 50px;
+
+    }
+
+.nav-item {
+    margin-top: 40px;
+    
+
+}
+
+.NOSOTRAS{
+    text-align: center;
+    color: rgba(210, 158, 0);
+    font-family: Nexa1;
+}
+.texto1 {
+    height: 267px;
+    width: 676px;
+    font-size: 22px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.conocenos {
+    background-color: #ffdaa3;
+    border: #f0be74;
+
+}
+
+.tituloequipo {
+    margin: 80px;
+    text-align: center;
+    color: rgba(210, 158, 0);
+}
+
+
+.final {
+    margin-top: 500px;
+    background-image: url(./imagenes/ESCENARIO---PÁGINA-WEB.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+    color: rgba(210, 158, 0);
+    font-size: 22px;
+}
+
+
+.card-title-vision {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Nexa1;
+    color: #946f37;;
+}
+
+.card-title-objetivo{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Nexa1;
+    color: #946f37;
+
+}
+.subtitulos {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card-text{
+    font-family: Nexa;
+    text-align: center;
+    font-size: 19px;
+
+}
+.card-title{
+    font-family: Nexa1;
+    color: #946f37;
+}
+.video {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-top: -20px;
+
+}
+
+.texto-video {
+    margin-top: 50px;
+    margin-left: 60px;
+    font-family: Nexa;
+    justify-content: center;
+
+}
+
+.holi{
+    width: 84rem;
+}
+
+.card-bombillo {
+    height: 170px;
+    width: 180px;
+    margin-left: 140px;
+    margin-right: 20px;
+    margin-top: 30px;
+ 
+}
+
+.card-img-ojo  { 
+    height: 150px;
+    width: 210px;
+    margin-left:100px;
+    }
+
+.card-tuercas {
+    height: 150px;
+    width: 200px;
+    margin-left: 90px;
+
+        
+    }
+
+
+
+
+.imgs-h {
+    margin-left: 50px;
+    
+
+    
+}
+
+.c1 figure {
+    position: relative;
+    height: 350px;
+    width: 400px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #c9caca;
+}
+
+.c1 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.c1 figure .capa {
+    position: absolute;
+    top: 0;
+    width: 96%;
+    height: 100%;
+    margin: 1rem;
+    background-color: black;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center; 
+    font-family: Nexa;   
+}
+
+.c1 figure:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.c1 figure:hover>.capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.final {
+    margin: 100px;
+
+}
+
+.tex {
+    /* padding: 50px;
+    margin-right: 129px;
+    margin-left: -80px; */
+    font-family: Nexa;
+    font-size: 20px;
+    text-align: justify;
+}
+.c2 figure {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #c9caca;
+}
+
+.c2 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.c2 figure .capa {
+    position: absolute;
+    top: 0;
+    width: 96%;
+    height: 100%;
+    margin: 1rem;
+    background-color: black;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;    
+}
+
+.c2 figure:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.c2 figure:hover>.capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.c3 figure {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #c9caca;
+}
+
+.c3 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.c3 figure .capa {
+    position: absolute;
+    top: 0;
+    width: 96%;
+    height: 100%;
+    margin: 1rem;
+    background-color: black;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;    
+}
+
+.c3 figure:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.c3 figure:hover>.capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* .img-fluid {
+    margin-left: 298px;
+    width: 286px;
+} */
+
+.hermes {
+    color: rgba(210, 158, 0);
+    margin: 50px;
+    text-align: center;
+    font-family: Nexa1;
+    font-size: 40px;
+}
+
+.escenario{
+    margin-top: 50px;
+    
+}
+
+.botonsito {
+    height: 49px;
+    width: 255px;
+    position: relative;
+    top: -160px;
+    margin-left: 570px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(210, 158, 0);
+    border: rgba(210, 158, 0);;
+    font-family: Nexa1;
+    border-radius: 5px;
+}
+.botonsito:hover {
+    background-color: #ffdaa3;
+    color: rgb(0, 0, 0);
+}
+.btn {
+    width: 200px;
+    position: relative;
+    top: -480px;
+    margin-left: 570px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(210, 158, 0);
+    border: rgba(210, 158, 0);;
+    font-family: Nexa1;
+    
+}
+.btn:hover {
+    background-color: #ffdaa3;
+    color: rgb(0, 0, 0);
+}
+footer{
+    height: 80px;
+    background-color:rgb(249, 228, 110);;
+
+}
+
+.navbar-nav {
+    margin-left: 238px;
+}
+
+.iconos {
+    margin-top: -38px;
+    padding: 50px;
+    margin-left: auto;
+}
+.icono{
+    margin: 10px;
+}
+
+.escenario {
+    margin-left: -12px;
+}
+
+.body {
+    min-width: 250px;
+    margin-bottom: 0;
+}
+
+.from_property {
+    background-color: #c9caca;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.from_property input {
+    display: block;
+}
+
+.from_property input[type="text"],
+.from_property input[type=email],
+.from_property textarea {
+    width: 92%;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+}
+
+.nombrescompletos{
+    display:flex;
+}
+
+.t.pt2{
+    display:flex;
+
+}
+
+.programadora{
+    color: rgb(210, 158, 0);
+    font-family: Nexa1;   
+}
+
+.textkaren{
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.nombrekaren{
+    text-align: end;
+    margin-right: 10px;
+    margin-top: 40px;
+}
